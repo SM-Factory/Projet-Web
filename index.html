@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+
+  <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Quick Start - Leaflet</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+  <link rel="stylesheet" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+<!--   <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+  <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>-->
+  <script type="module" src="Leaflet.markercluster-1.4.1/src/index.js"></script>
+  
+
+
+</head>
+
+<body>
+
+  <div id="map" style="width: 100%; height: 80%;"></div>
+
+  <br>
+  <select id="menu" name="ville">
+    <option value=""></option>
+  </select>
+  <input type="text" id="cp" value="" />
+  <button id="valider">Essayer</button>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
