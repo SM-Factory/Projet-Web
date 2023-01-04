@@ -1,5 +1,6 @@
 <?php
-session_start();?>
+session_start();
+if (!isset($_SESSION['id'])) { header("Location: ../index.php"); }?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,7 +42,7 @@ session_start();?>
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-white" href="carte.html">
+          <a class="nav-link text-white" href="carte.php">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">map</i>
             </div>

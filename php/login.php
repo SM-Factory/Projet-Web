@@ -35,7 +35,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	$_SESSION['mail'] = $row['mail'];
             	$_SESSION['loc'] = $row['loc'];
             	$_SESSION['info'] = $row['Information'];
-            	header("Location: ../site/carte.html");
+            	header("Location: ../site/carte.php");
 		        exit();
             }else{
 				header("Location: index.php?error=Incorect User name or password");

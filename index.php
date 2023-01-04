@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Connexion</title>
-	<link rel="stylesheet" type="text/css" href="style_log.css">
+	<link rel="stylesheet" type="text/css" href="style/style_log.css">
 	<link rel="icon" type="image/png" href="assets/img/logo-ct.png">
 </head>
 <body>
